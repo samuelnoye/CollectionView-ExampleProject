@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     
     
     func alert(){
-        let alert = UIAlertController(title: "Warning", message: "Show user that we can only allow to select 3 options.", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Warning", message: "You can only select 3 options.", preferredStyle: .alert)
         
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         self.present(alert, animated: true, completion: nil)
@@ -101,7 +101,8 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
             if selectedIndexes.count < 3 {
                 selectedIndexes.append(indexPath.row)
             } else {
-                print("Show user that we can only allow to select 3 options")
+                alert()
+                print("You can only select 3 options")
             }
         }
         collectionView.reloadData()
