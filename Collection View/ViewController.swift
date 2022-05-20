@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     // MARK: - Custom Functions
     func addDummyData() {
         options.append(RideOption(title: "Speed", image: "promotions"))
-        options.append(RideOption(title: "Tunnel", image: "promotions"))
+        options.append(RideOption(title: "Tunnel", image: "curves"))
         options.append(RideOption(title: "Curves", image: "promotions"))
         options.append(RideOption(title: "Forest", image: "promotions"))
         options.append(RideOption(title: "Rivers", image: "promotions"))
