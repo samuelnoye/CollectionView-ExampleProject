@@ -42,6 +42,11 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    func alert(){
+        
+    }
+    
     // MARK: - Custom Functions
     func addDummyData() {
         options.append(RideOption(title: "Speed", image: "promotions"))
