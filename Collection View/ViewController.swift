@@ -44,7 +44,10 @@ class ViewController: UIViewController {
     
     
     func alert(){
+        let alert = UIAlertController(title: "Warning", message: "Show user that we can only allow to select 3 options.", preferredStyle: .alert)
         
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     // MARK: - Custom Functions
