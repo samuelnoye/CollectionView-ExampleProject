@@ -24,11 +24,11 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         // Configure Collection View
-        collectionView.delegate = self
-        collectionView.dataSource = self
-        collectionView.clearBackground()
-        collectionView.updateFLow(10, 10, false)
-        addDummyData()
+//        collectionView.delegate = self
+//        collectionView.dataSource = self
+//        collectionView.clearBackground()
+//        collectionView.updateFLow(10, 10, false)
+//        addDummyData()
     }
     
     // MARK: - IBActions
