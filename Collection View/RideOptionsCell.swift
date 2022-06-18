@@ -41,7 +41,7 @@ class RideOptionsCell: UICollectionViewCell {
     }
     
     func unselectedState() {
-        cellImg.ofColor(.green)
+        cellImg.ofColor(.red)
         cellbgView.backgroundColor = .black
     }
     
