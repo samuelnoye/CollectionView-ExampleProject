@@ -28,7 +28,7 @@ class RideOptionsCell: UICollectionViewCell {
         
         // Initialization code
         cellImg.ofColor(.green)
-        cellbgView.backgroundColor = .black
+        cellbgView.backgroundColor = .red
         cellbgView.updateBorder(color: .green)
         cellbgView.round()
     }
