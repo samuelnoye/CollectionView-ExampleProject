@@ -18,7 +18,7 @@ extension UICollectionView {
         flow.scrollDirection = ishorizontal ? .horizontal : .vertical
         
         // Apply flow layout
-        self.setCollectionViewLayout(flow, animated: true)
+        self.setCollectionViewLayout(flow, animated: false)
     }
     
     func isScrollEnable(isEnable: Bool) {
