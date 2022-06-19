@@ -35,10 +35,10 @@ class RideOptionsCell: UICollectionViewCell {
 
     
     // MARK: - Custom Function
-    func selectedState() {
-        cellImg.ofColor(.black)
-        cellbgView.backgroundColor = .green
-    }
+    // func selectedState() {
+    //     cellImg.ofColor(.black)
+    //     cellbgView.backgroundColor = .green
+    // }
     
     func unselectedState() {
         cellImg.ofColor(.green)
