@@ -40,10 +40,10 @@ class RideOptionsCell: UICollectionViewCell {
         cellbgView.backgroundColor = .green
     }
     
-    func unselectedState() {
-        cellImg.ofColor(.green)
-        cellbgView.backgroundColor = .black
-    }
+    // func unselectedState() {
+    //     cellImg.ofColor(.green)
+    //     cellbgView.backgroundColor = .black
+    // }
     
     func configureCell(_ option: RideOption, _ isSelected: Bool) {
         cellImg.image = UIImage(named: option.image)
