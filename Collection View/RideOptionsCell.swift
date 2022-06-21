@@ -45,13 +45,13 @@ class RideOptionsCell: UICollectionViewCell {
         cellbgView.backgroundColor = .black
     }
     
-    func configureCell(_ option: RideOption, _ isSelected: Bool) {
-        cellImg.image = UIImage(named: option.image)
-        cellLbl.text = option.title
-        if isSelected {
-            selectedState()
-        } else {
-            unselectedState()
-        }
+    // func configureCell(_ option: RideOption, _ isSelected: Bool) {
+    //     cellImg.image = UIImage(named: option.image)
+    //     cellLbl.text = option.title
+    //     if isSelected {
+    //         selectedState()
+    //     } else {
+    //         unselectedState()
+    //     }
     }
 }
