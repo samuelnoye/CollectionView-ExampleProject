@@ -51,19 +51,19 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Custom Functions
-    // func addDummyData() {
-    //     options.append(RideOption(title: "Speed", image: "promotions"))
-    //     options.append(RideOption(title: "Tunnel", image: "curves"))
-    //     options.append(RideOption(title: "Curves", image: "promotions"))
-    //     options.append(RideOption(title: "Forest", image: "promotions"))
-    //     options.append(RideOption(title: "Rivers", image: "promotions"))
-    //     options.append(RideOption(title: "Speed 1", image: "promotions"))
-    //     options.append(RideOption(title: "Tunnel 1", image: "promotions"))
-    //     options.append(RideOption(title: "Curves 1", image: "promotions"))
-    //     options.append(RideOption(title: "Forest 1", image: "promotions"))
-    //     options.append(RideOption(title: "Rivers 1", image: "promotions"))
-    //     collectionView.reloadData()
-    // }
+    func addDummyData() {
+        options.append(RideOption(title: "Speed", image: "promotions"))
+        options.append(RideOption(title: "Tunnel", image: "curves"))
+        options.append(RideOption(title: "Curves", image: "promotions"))
+        options.append(RideOption(title: "Forest", image: "promotions"))
+        options.append(RideOption(title: "Rivers", image: "promotions"))
+        options.append(RideOption(title: "Speed 1", image: "promotions"))
+        options.append(RideOption(title: "Tunnel 1", image: "promotions"))
+        options.append(RideOption(title: "Curves 1", image: "promotions"))
+        options.append(RideOption(title: "Forest 1", image: "promotions"))
+        options.append(RideOption(title: "Rivers 1", image: "promotions"))
+        collectionView.reloadData()
+    }
 }
 
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
