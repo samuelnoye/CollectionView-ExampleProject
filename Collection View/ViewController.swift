@@ -19,17 +19,17 @@ class ViewController: UIViewController {
     // MARK: - Constant
     
     // MARK: - View Lifecycle
-    // override func viewDidLoad() {
-    //     super.viewDidLoad()
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
-    //     // Do any additional setup after loading the view.
-    //     // Configure Collection View
-    //     collectionView.delegate = self
-    //     collectionView.dataSource = self
-    //     collectionView.clearBackground()
-    //     collectionView.updateFLow(10, 10, false)
-    //     addDummyData()
-    // }
+        // Do any additional setup after loading the view.
+        // Configure Collection View
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.clearBackground()
+        collectionView.updateFLow(10, 10, false)
+        addDummyData()
+    }
     
     // MARK: - IBActions
     @IBAction func btnPrintTapped(_ sender: UIButton) {
