@@ -26,7 +26,7 @@ extension UICollectionView {
     }
     
     func clearBackground() {
-        self.backgroundColor = .gray
+        self.backgroundColor = .clear
         self.backgroundView = UIView(frame: .zero)
     }
 }
