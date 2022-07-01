@@ -48,7 +48,7 @@ extension UIImageView {
 
 extension UIView {
     
-    func updateBorder(color: UIColor? = .red) {
+    func updateBorder(color: UIColor? = .clear) {
         self.layer.borderColor = color?.cgColor
         self.layer.borderWidth = 1
     }
