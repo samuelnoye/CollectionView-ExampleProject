@@ -69,9 +69,9 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
         collectionView.register(UINib(nibName: RideOptionsCell.identifier, bundle: nil), forCellWithReuseIdentifier: RideOptionsCell.identifier)
         
         // Cell
-        // guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RideOptionsCell.identifier, for: indexPath) as? RideOptionsCell else {
-        //     return UICollectionViewCell()
-        // }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RideOptionsCell.identifier, for: indexPath) as? RideOptionsCell else {
+            return UICollectionViewCell()
+        }
         
         cell.configureCell(options[indexPath.row], selectedIndexes.contains(indexPath.row))
         
